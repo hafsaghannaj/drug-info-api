@@ -1,0 +1,4 @@
+[project]
+name = "core-service"
+version = "1.0.0"
+dependencies = ["fastapi", "uvicorn"]

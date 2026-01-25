@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Textbooks on MIT OpenCourseWare</title>
+    <link>/resources/open-textbooks/</link>
+    <description>Recent content in Open Textbooks on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/open-textbooks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 00: Highlights of Calculus</title>
+      <link>/resources/mitres_18_001_f17_ch00_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_ch00_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chapter 01: Introduction to Calculus</title>
+      <link>/resources/mitres_18_001_f17_ch01_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_ch01_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chapter 02: Derivatives</title>
+      <link>/resources/mitres_18_001_f17_ch02_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_ch02_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chapter 03: Applications of the Derivative</title>
+      <link>/resources/mitres_18_001_f17_ch03_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_ch03_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chapter 04: Derivatives by the Chain Rule</title>
+      <link>/resources/mitres_18_001_f17_ch04_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_ch04_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chapter 05: Integrals</title>
+      <link>/resources/mitres_18_001_f17_ch05_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_ch05_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chapter 06: Exponentials and Logarithms</title>
+      <link>/resources/mitres_18_001_f17_ch06_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_ch06_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chapter 07: Techniques of Integration</title>
+      <link>/resources/mitres_18_001_f17_ch07_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_ch07_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chapter 08: Applications of the Integral</title>
+      <link>/resources/mitres_18_001_f17_ch08_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_ch08_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chapter 09: Polar Coordinates and Complex Numbers</title>
+      <link>/resources/mitres_18_001_f17_ch09_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_ch09_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chapter 10: Infinite Series</title>
+      <link>/resources/mitres_18_001_f17_ch10_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_ch10_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chapter 11: Vectors and Matrices</title>
+      <link>/resources/mitres_18_001_f17_ch11_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_ch11_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chapter 12: Motion Along a Curve</title>
+      <link>/resources/mitres_18_001_f17_ch12_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_ch12_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chapter 13: Partial Derivatives</title>
+      <link>/resources/mitres_18_001_f17_ch13_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_ch13_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chapter 14: Multiple Integrals</title>
+      <link>/resources/mitres_18_001_f17_ch14_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_ch14_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chapter 15: Vector Calculus</title>
+      <link>/resources/mitres_18_001_f17_ch15_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_ch15_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chapter 16: Mathematics after Calculus</title>
+      <link>/resources/mitres_18_001_f17_ch16_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_ch16_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Full Textbook</title>
+      <link>/resources/mitres_18_001_f17_full_book_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_full_book_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Index</title>
+      <link>/resources/mitres_18_001_f17_index_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_index_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Instructor&#39;s Manual for Chapter 01</title>
+      <link>/resources/mitres_18_001_f17_manual_ch01_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_manual_ch01_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Instructor&#39;s Manual for Chapter 02</title>
+      <link>/resources/mitres_18_001_f17_manual_ch02_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_manual_ch02_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Instructor&#39;s Manual for Chapter 03</title>
+      <link>/resources/mitres_18_001_f17_manual_ch03_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_manual_ch03_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Instructor&#39;s Manual for Chapter 04</title>
+      <link>/resources/mitres_18_001_f17_manual_ch04_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_manual_ch04_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Instructor&#39;s Manual for Chapter 05</title>
+      <link>/resources/mitres_18_001_f17_manual_ch05_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_manual_ch05_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Instructor&#39;s Manual for Chapter 06</title>
+      <link>/resources/mitres_18_001_f17_manual_ch06_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_manual_ch06_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Instructor&#39;s Manual for Chapter 07</title>
+      <link>/resources/mitres_18_001_f17_manual_ch07_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_manual_ch07_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Instructor&#39;s Manual for Chapter 08</title>
+      <link>/resources/mitres_18_001_f17_manual_ch08_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_manual_ch08_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Instructor&#39;s Manual for Chapter 09</title>
+      <link>/resources/mitres_18_001_f17_manual_ch09_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_manual_ch09_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Instructor&#39;s Manual for Chapter 10</title>
+      <link>/resources/mitres_18_001_f17_manual_ch10_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_manual_ch10_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Instructor&#39;s Manual for Chapter 11</title>
+      <link>/resources/mitres_18_001_f17_manual_ch11_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_manual_ch11_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Instructor&#39;s Manual for Chapter 12</title>
+      <link>/resources/mitres_18_001_f17_manual_ch12_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_manual_ch12_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Instructor&#39;s Manual for Chapter 13</title>
+      <link>/resources/mitres_18_001_f17_manual_ch13_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_manual_ch13_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Instructor&#39;s Manual for Chapter 14</title>
+      <link>/resources/mitres_18_001_f17_manual_ch14_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_manual_ch14_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Instructor&#39;s Manual for Chapter 15</title>
+      <link>/resources/mitres_18_001_f17_manual_ch15_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_manual_ch15_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Instructor&#39;s Manual for Chapter 16</title>
+      <link>/resources/mitres_18_001_f17_manual_ch16_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_manual_ch16_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Instructor&#39;s Manual Notes for the Text</title>
+      <link>/resources/mitres_18_001_f17_manual_notes_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_manual_notes_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Instructor&#39;s Manual Selected Errata</title>
+      <link>/resources/mitres_18_001_f17_manual_errata_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_manual_errata_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study Guide for Chapter 01</title>
+      <link>/resources/mitres_18_001_f17_guide_ch01_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_guide_ch01_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study Guide for Chapter 02</title>
+      <link>/resources/mitres_18_001_f17_guide_ch02_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_guide_ch02_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study Guide for Chapter 03</title>
+      <link>/resources/mitres_18_001_f17_guide_ch03_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_guide_ch03_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study Guide for Chapter 04</title>
+      <link>/resources/mitres_18_001_f17_guide_ch04_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_guide_ch04_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study Guide for Chapter 05</title>
+      <link>/resources/mitres_18_001_f17_guide_ch05_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_guide_ch05_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study Guide for Chapter 06</title>
+      <link>/resources/mitres_18_001_f17_guide_ch06_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_guide_ch06_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study Guide for Chapter 07</title>
+      <link>/resources/mitres_18_001_f17_guide_ch07_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_guide_ch07_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study Guide for Chapter 08</title>
+      <link>/resources/mitres_18_001_f17_guide_ch08_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_guide_ch08_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study Guide for Chapter 09</title>
+      <link>/resources/mitres_18_001_f17_guide_ch09_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_guide_ch09_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study Guide for Chapter 10</title>
+      <link>/resources/mitres_18_001_f17_guide_ch10_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_guide_ch10_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study Guide for Chapter 11</title>
+      <link>/resources/mitres_18_001_f17_guide_ch11_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_guide_ch11_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study Guide for Chapter 12</title>
+      <link>/resources/mitres_18_001_f17_guide_ch12_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_guide_ch12_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study Guide for Chapter 13</title>
+      <link>/resources/mitres_18_001_f17_guide_ch13_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_guide_ch13_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study Guide for Chapter 14</title>
+      <link>/resources/mitres_18_001_f17_guide_ch14_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_guide_ch14_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study Guide for Chapter 15</title>
+      <link>/resources/mitres_18_001_f17_guide_ch15_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_guide_ch15_pdf/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Table of Contents</title>
+      <link>/resources/mitres_18_001_f17_toc_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitres_18_001_f17_toc_pdf/data.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

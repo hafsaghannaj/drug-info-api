@@ -1,0 +1,14 @@
+README.md
+setup.py
+streamcag/__init__.py
+streamcag/web.py
+streamcag.egg-info/PKG-INFO
+streamcag.egg-info/SOURCES.txt
+streamcag.egg-info/dependency_links.txt
+streamcag.egg-info/entry_points.txt
+streamcag.egg-info/requires.txt
+streamcag.egg-info/top_level.txt
+streamcag/cache/__init__.py
+streamcag/core/__init__.py
+streamcag/optimizer/__init__.py
+streamcag/utils/__init__.py

@@ -1,0 +1,111 @@
+Metadata-Version: 2.4
+Name: streamcag
+Version: 0.1.0
+Summary: Streamlined Cache-Augmented Generation for LLMs
+Home-page: https://github.com/yourusername/streamcag
+Author: StreamCAG Team
+Author-email: your-email@example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=2.0.0
+Requires-Dist: transformers>=4.30.0
+Requires-Dist: sentence-transformers>=2.2.0
+Requires-Dist: faiss-cpu>=1.7.0
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: tqdm>=4.65.0
+Requires-Dist: scikit-learn>=1.3.0
+Provides-Extra: vectorstore
+Requires-Dist: chromadb>=0.4.0; extra == "vectorstore"
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: black>=23.0.0; extra == "dev"
+Requires-Dist: flake8>=6.0.0; extra == "dev"
+Requires-Dist: mypy>=1.0.0; extra == "dev"
+Provides-Extra: visualization
+Requires-Dist: matplotlib>=3.7.0; extra == "visualization"
+Requires-Dist: seaborn>=0.12.0; extra == "visualization"
+Requires-Dist: gradio>=3.44.0; extra == "visualization"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+## Quick Start
+
+```python
+from streamcag import StreamCAG, StreamCAGConfig
+
+# Configure system
+config = StreamCAGConfig(
+    model_name="mistralai/Mistral-7B-Instruct-v0.1",
+    cache_max_size=1000,
+    optimize_context=True
+)
+
+# Initialize
+cag = StreamCAG(config)
+
+# Preload knowledge
+knowledge = [
+    "Paris is the capital of France.",
+    "Machine learning is a subset of artificial intelligence."
+]
+cag.preload_knowledge(knowledge)
+
+# Query with intelligent caching
+result = cag.query("What is the capital of France?")
+print(result['answer'])
+```
+
+## StreamCAG Architecture
+
+```
+
+## Configuration
+
+Customize StreamCAG through the configuration object:
+
+```python
+config = StreamCAGConfig(
+    model_name="meta-llama/Llama-2-7b-chat-hf",
+    cache_max_size=2000,
+    target_context_tokens=2048,
+    use_4bit_quantization=True,
+    cache_storage_path="./my_cache",
+    optimize_context=True
+)
+```
+StreamCAG Architecture
+├── Layer 1: Query Interface
+│   ├── Intent Detection
+│   └── Context Optimization
+├── Layer 2: Semantic Cache Manager
+│   ├── L1 Cache (In-memory)
+│   ├── L2 Cache (Persistent)
+│   └── Cache Coherence Engine
+├── Layer 3: LLM Integration
+│   ├── Multi-Model Support
+│   ├── Prompt Engineering
+│   └── Response Generation
+└── Layer 4: Storage & Analytics
+    ├── Vector Storage
+    ├── Performance Metrics
+    └── Cache Persistence
+```
