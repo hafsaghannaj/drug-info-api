@@ -1,0 +1,19 @@
+Name:         allow-nettest-egress
+Namespace:    blue-team-apps
+Created on:   2026-01-27 11:49:23 -0500 EST
+Labels:       <none>
+Annotations:  <none>
+Spec:
+  PodSelector:     app=nettest
+  Not affecting ingress traffic
+  Allowing egress traffic:
+    To Port: 8080/TCP
+    To:
+      PodSelector: app=good-pod
+    ----------
+    To Port: 53/UDP
+    To Port: 53/TCP
+    To:
+      NamespaceSelector: kubernetes.io/metadata.name=kube-system
+      PodSelector: k8s-app=kube-dns
+  Policy Types: Egress

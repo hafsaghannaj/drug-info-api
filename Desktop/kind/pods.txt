@@ -1,0 +1,4 @@
+NAME       READY   STATUS    RESTARTS   AGE    IP             NODE                    NOMINATED NODE   READINESS GATES
+good-pod   1/1     Running   0          18m    10.244.1.156   blue-team-lab-worker2   <none>           <none>
+nettest    1/1     Running   0          18m    10.244.2.246   blue-team-lab-worker    <none>           <none>
+random     1/1     Running   0          101s   10.244.2.152   blue-team-lab-worker    <none>           <none>
