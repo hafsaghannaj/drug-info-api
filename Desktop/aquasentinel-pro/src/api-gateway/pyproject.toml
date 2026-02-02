@@ -1,0 +1,9 @@
+[project]
+name = "api-gateway"
+version = "1.0.0"
+dependencies = [
+  "fastapi",
+  "uvicorn",
+  "httpx",
+  "python-dotenv"
+]

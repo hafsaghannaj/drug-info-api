@@ -1,28 +1,66 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import dynamic from "next/dynamic";
+import Navbar from "@/components/Navbar";
+import RegionStats from "@/components/RegionStats";
+import AlertsList from "@/components/AlertsList";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+
+// Dynamically import map to avoid SSR issues
+const RiskMap = dynamic(() => import("@/components/RiskMap"), {
+  ssr: false,
+  loading: () => (
+    <div className="w-full h-full bg-gray-100 rounded-lg flex items-center justify-center">
+      <p className="text-gray-500">Loading map...</p>
+    </div>
+  ),
+});
+
+const RiskChart = dynamic(() => import("@/components/RiskChart"), {
+  ssr: false,
+});
 
 export default function DashboardPage() {
-  const [risk, setRisk] = useState<any>(null);
-
-  useEffect(() => {
-    fetch(`${process.env.NEXT_PUBLIC_API_URL}/ml/predict`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ region: "demo" }),
-    })
-      .then((r) => r.json())
-      .then(setRisk);
-  }, []);
-
   return (
-    <main className="p-8">
-      <h2 className="text-2xl font-semibold">Risk Dashboard</h2>
+    <div className="min-h-screen bg-gray-50">
+      <Navbar />
 
-      <div className="mt-6 rounded-2xl border p-4">
-        <p className="font-medium">Live Risk Prediction</p>
-        <pre className="mt-3 text-sm">{JSON.stringify(risk, null, 2)}</pre>
-      </div>
-    </main>
+      <main className="p-6 space-y-6">
+        {/* Stats Grid */}
+        <RegionStats />
+
+        {/* Main Content Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          {/* Map - Takes 2 columns on large screens */}
+          <Card className="lg:col-span-2">
+            <CardHeader>
+              <CardTitle>Global Risk Map</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="h-[500px]">
+                <RiskMap />
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Alerts List - Takes 1 column */}
+          <div className="space-y-6">
+            <AlertsList />
+          </div>
+        </div>
+
+        {/* Risk Trends Chart */}
+        <Card>
+          <CardHeader>
+            <CardTitle>30-Day Risk Trends</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="h-[350px]">
+              <RiskChart />
+            </div>
+          </CardContent>
+        </Card>
+      </main>
+    </div>
   );
 }
