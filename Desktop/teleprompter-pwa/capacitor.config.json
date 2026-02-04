@@ -1,0 +1,6 @@
+{
+  "appId": "com.hafsaghannaj.teleprompter",
+  "appName": "Mini Teleprompter",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}
