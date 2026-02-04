@@ -1,8 +1,0 @@
-{
-  "total_regions_monitored": 20,
-  "active_alerts": 10,
-  "high_risk_regions": 8,
-  "predictions_today": 245,
-  "avg_risk_score": 0.62,
-  "trend": "increasing"
-}

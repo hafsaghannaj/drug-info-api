@@ -1,4 +1,0 @@
-NAME                       POD-SELECTOR   AGE
-allow-nettest-egress       app=nettest    5m50s
-allow-nettest-to-goodpod   app=good-pod   10m
-default-deny-all           <none>         10m
