@@ -1,0 +1,440 @@
+{
+  "drugs": [
+    {
+      "generic_name": "metformin",
+      "bioavailability_oral_pct": 50,
+      "time_to_peak_hours": 2.5,
+      "volume_of_distribution_l_kg": 4.4,
+      "protein_binding_pct": 0,
+      "half_life_hours": 6.2,
+      "half_life_range": "4–9 h",
+      "metabolism": {
+        "primary_enzyme": null,
+        "secondary_enzymes": [],
+        "active_metabolites": [],
+        "prodrug": false,
+        "notes": "Not metabolised; excreted unchanged"
+      },
+      "elimination": {
+        "primary_route": "renal",
+        "renal_fraction": 1.0,
+        "half_life_hours": 6.2,
+        "clearance_ml_min_kg": 5.5
+      },
+      "onset_minutes": null,
+      "duration_hours": null,
+      "therapeutic_range": "0.5–1.5 µg/mL (plasma)",
+      "narrow_therapeutic_index": false,
+      "references": ["FDA label NDA 021202", "Graham et al. Clin Pharmacokinet 2011"]
+    },
+    {
+      "generic_name": "warfarin",
+      "bioavailability_oral_pct": 93,
+      "time_to_peak_hours": 4.0,
+      "volume_of_distribution_l_kg": 0.14,
+      "protein_binding_pct": 99,
+      "half_life_hours": 37,
+      "half_life_range": "20–60 h",
+      "metabolism": {
+        "primary_enzyme": "CYP2C9",
+        "secondary_enzymes": ["CYP3A4", "CYP1A2"],
+        "active_metabolites": [],
+        "prodrug": false,
+        "notes": "S-warfarin (more potent) via CYP2C9; VKORC1 polymorphism affects response"
+      },
+      "elimination": {
+        "primary_route": "hepatic",
+        "renal_fraction": 0.0,
+        "half_life_hours": 37,
+        "clearance_ml_min_kg": 0.045
+      },
+      "onset_minutes": null,
+      "duration_hours": null,
+      "therapeutic_range": "INR 2.0–3.0 (most indications)",
+      "narrow_therapeutic_index": true,
+      "references": ["FDA label NDA 009218", "Holbrook et al. Chest 2012"]
+    },
+    {
+      "generic_name": "atorvastatin",
+      "bioavailability_oral_pct": 12,
+      "time_to_peak_hours": 2.0,
+      "volume_of_distribution_l_kg": 4.9,
+      "protein_binding_pct": 98,
+      "half_life_hours": 14,
+      "half_life_range": "11–20 h (including active metabolites)",
+      "metabolism": {
+        "primary_enzyme": "CYP3A4",
+        "secondary_enzymes": [],
+        "active_metabolites": ["ortho-hydroxy atorvastatin", "para-hydroxy atorvastatin"],
+        "prodrug": false,
+        "notes": "First-pass hepatic extraction ~70%; active metabolites contribute ~70% of inhibitory activity"
+      },
+      "elimination": {
+        "primary_route": "biliary/fecal",
+        "renal_fraction": 0.02,
+        "half_life_hours": 14,
+        "clearance_ml_min_kg": null
+      },
+      "onset_minutes": null,
+      "duration_hours": null,
+      "therapeutic_range": null,
+      "narrow_therapeutic_index": false,
+      "references": ["FDA label NDA 020702"]
+    },
+    {
+      "generic_name": "lisinopril",
+      "bioavailability_oral_pct": 25,
+      "time_to_peak_hours": 7.0,
+      "volume_of_distribution_l_kg": 0.5,
+      "protein_binding_pct": 0,
+      "half_life_hours": 12,
+      "half_life_range": "12 h (effective); prolonged in renal impairment",
+      "metabolism": {
+        "primary_enzyme": null,
+        "secondary_enzymes": [],
+        "active_metabolites": [],
+        "prodrug": false,
+        "notes": "Not metabolised; excreted unchanged in urine. Dose-adjust for CrCl < 30 mL/min"
+      },
+      "elimination": {
+        "primary_route": "renal",
+        "renal_fraction": 1.0,
+        "half_life_hours": 12,
+        "clearance_ml_min_kg": null
+      },
+      "onset_minutes": 60,
+      "duration_hours": 24,
+      "therapeutic_range": null,
+      "narrow_therapeutic_index": false,
+      "references": ["FDA label NDA 019777"]
+    },
+    {
+      "generic_name": "amlodipine",
+      "bioavailability_oral_pct": 64,
+      "time_to_peak_hours": 8.0,
+      "volume_of_distribution_l_kg": 21,
+      "protein_binding_pct": 97,
+      "half_life_hours": 42,
+      "half_life_range": "35–50 h",
+      "metabolism": {
+        "primary_enzyme": "CYP3A4",
+        "secondary_enzymes": [],
+        "active_metabolites": [],
+        "prodrug": false,
+        "notes": "Extensively metabolised to inactive pyridine metabolites"
+      },
+      "elimination": {
+        "primary_route": "hepatic",
+        "renal_fraction": 0.1,
+        "half_life_hours": 42,
+        "clearance_ml_min_kg": null
+      },
+      "onset_minutes": null,
+      "duration_hours": 24,
+      "therapeutic_range": null,
+      "narrow_therapeutic_index": false,
+      "references": ["FDA label NDA 019787"]
+    },
+    {
+      "generic_name": "metoprolol",
+      "bioavailability_oral_pct": 38,
+      "time_to_peak_hours": 1.5,
+      "volume_of_distribution_l_kg": 3.2,
+      "protein_binding_pct": 12,
+      "half_life_hours": 5,
+      "half_life_range": "3–7 h",
+      "metabolism": {
+        "primary_enzyme": "CYP2D6",
+        "secondary_enzymes": [],
+        "active_metabolites": [],
+        "prodrug": false,
+        "notes": "Significant CYP2D6 polymorphism — poor metabolisers have 4–5× higher AUC"
+      },
+      "elimination": {
+        "primary_route": "hepatic",
+        "renal_fraction": 0.05,
+        "half_life_hours": 5,
+        "clearance_ml_min_kg": null
+      },
+      "onset_minutes": 30,
+      "duration_hours": 12,
+      "therapeutic_range": null,
+      "narrow_therapeutic_index": false,
+      "references": ["FDA label NDA 019962"]
+    },
+    {
+      "generic_name": "sertraline",
+      "bioavailability_oral_pct": 44,
+      "time_to_peak_hours": 5.5,
+      "volume_of_distribution_l_kg": 20,
+      "protein_binding_pct": 98,
+      "half_life_hours": 26,
+      "half_life_range": "22–36 h",
+      "metabolism": {
+        "primary_enzyme": "CYP2C19",
+        "secondary_enzymes": ["CYP2D6", "CYP3A4", "CYP2C9"],
+        "active_metabolites": ["desmethylsertraline (weak activity)"],
+        "prodrug": false,
+        "notes": null
+      },
+      "elimination": {
+        "primary_route": "hepatic",
+        "renal_fraction": 0.0,
+        "half_life_hours": 26,
+        "clearance_ml_min_kg": null
+      },
+      "onset_minutes": null,
+      "duration_hours": null,
+      "therapeutic_range": "10–150 ng/mL",
+      "narrow_therapeutic_index": false,
+      "references": ["FDA label NDA 019839"]
+    },
+    {
+      "generic_name": "omeprazole",
+      "bioavailability_oral_pct": 35,
+      "time_to_peak_hours": 1.5,
+      "volume_of_distribution_l_kg": 0.34,
+      "protein_binding_pct": 95,
+      "half_life_hours": 1.0,
+      "half_life_range": "0.5–1.5 h (plasma); acid suppression lasts 24 h",
+      "metabolism": {
+        "primary_enzyme": "CYP2C19",
+        "secondary_enzymes": ["CYP3A4"],
+        "active_metabolites": [],
+        "prodrug": false,
+        "notes": "CYP2C19 polymorphism: poor metabolisers have 3–4× higher AUC. Plasma half-life poorly reflects pharmacodynamic duration (irreversible pump binding)"
+      },
+      "elimination": {
+        "primary_route": "hepatic",
+        "renal_fraction": 0.2,
+        "half_life_hours": 1.0,
+        "clearance_ml_min_kg": null
+      },
+      "onset_minutes": 60,
+      "duration_hours": 24,
+      "therapeutic_range": null,
+      "narrow_therapeutic_index": false,
+      "references": ["FDA label NDA 019810"]
+    },
+    {
+      "generic_name": "amoxicillin",
+      "bioavailability_oral_pct": 90,
+      "time_to_peak_hours": 1.5,
+      "volume_of_distribution_l_kg": 0.3,
+      "protein_binding_pct": 17,
+      "half_life_hours": 1.3,
+      "half_life_range": "1–1.5 h",
+      "metabolism": {
+        "primary_enzyme": null,
+        "secondary_enzymes": [],
+        "active_metabolites": [],
+        "prodrug": false,
+        "notes": "Partially hydrolysed to penicilloic acid; remainder excreted unchanged"
+      },
+      "elimination": {
+        "primary_route": "renal",
+        "renal_fraction": 0.6,
+        "half_life_hours": 1.3,
+        "clearance_ml_min_kg": null
+      },
+      "onset_minutes": 30,
+      "duration_hours": null,
+      "therapeutic_range": null,
+      "narrow_therapeutic_index": false,
+      "references": ["FDA label NDA 050542"]
+    },
+    {
+      "generic_name": "levothyroxine",
+      "bioavailability_oral_pct": 70,
+      "time_to_peak_hours": 4.0,
+      "volume_of_distribution_l_kg": 0.15,
+      "protein_binding_pct": 99.97,
+      "half_life_hours": 168,
+      "half_life_range": "6–7 days",
+      "metabolism": {
+        "primary_enzyme": null,
+        "secondary_enzymes": [],
+        "active_metabolites": ["triiodothyronine (T3)"],
+        "prodrug": false,
+        "notes": "Deiodination to T3 (active) in peripheral tissues; further deiodination to reverse T3 (inactive)"
+      },
+      "elimination": {
+        "primary_route": "hepatic/fecal",
+        "renal_fraction": 0.2,
+        "half_life_hours": 168,
+        "clearance_ml_min_kg": null
+      },
+      "onset_minutes": null,
+      "duration_hours": null,
+      "therapeutic_range": "TSH 0.4–4.0 mU/L (clinical endpoint)",
+      "narrow_therapeutic_index": true,
+      "references": ["FDA label NDA 021402"]
+    },
+    {
+      "generic_name": "digoxin",
+      "bioavailability_oral_pct": 70,
+      "time_to_peak_hours": 2.0,
+      "volume_of_distribution_l_kg": 7.3,
+      "protein_binding_pct": 25,
+      "half_life_hours": 36,
+      "half_life_range": "36–48 h; prolonged in renal impairment",
+      "metabolism": {
+        "primary_enzyme": null,
+        "secondary_enzymes": [],
+        "active_metabolites": [],
+        "prodrug": false,
+        "notes": "Minimal hepatic metabolism. P-glycoprotein substrate — many interactions"
+      },
+      "elimination": {
+        "primary_route": "renal",
+        "renal_fraction": 0.7,
+        "half_life_hours": 36,
+        "clearance_ml_min_kg": null
+      },
+      "onset_minutes": 30,
+      "duration_hours": null,
+      "therapeutic_range": "0.5–0.9 ng/mL (HF); ≤2.0 ng/mL (arrhythmia)",
+      "narrow_therapeutic_index": true,
+      "references": ["FDA label NDA 020405", "Rathore et al. JAMA 2003"]
+    },
+    {
+      "generic_name": "lithium",
+      "bioavailability_oral_pct": 100,
+      "time_to_peak_hours": 2.0,
+      "volume_of_distribution_l_kg": 0.8,
+      "protein_binding_pct": 0,
+      "half_life_hours": 24,
+      "half_life_range": "18–36 h",
+      "metabolism": {
+        "primary_enzyme": null,
+        "secondary_enzymes": [],
+        "active_metabolites": [],
+        "prodrug": false,
+        "notes": "Not metabolised; excreted unchanged. Renal clearance mirrors sodium handling — thiazides and NSAIDs raise serum levels"
+      },
+      "elimination": {
+        "primary_route": "renal",
+        "renal_fraction": 1.0,
+        "half_life_hours": 24,
+        "clearance_ml_min_kg": null
+      },
+      "onset_minutes": null,
+      "duration_hours": null,
+      "therapeutic_range": "0.6–1.2 mEq/L (maintenance); ≤1.5 mEq/L acute mania",
+      "narrow_therapeutic_index": true,
+      "references": ["FDA label NDA 011645"]
+    },
+    {
+      "generic_name": "vancomycin",
+      "bioavailability_oral_pct": 5,
+      "time_to_peak_hours": null,
+      "volume_of_distribution_l_kg": 0.7,
+      "protein_binding_pct": 55,
+      "half_life_hours": 6,
+      "half_life_range": "4–8 h (normal renal function)",
+      "metabolism": {
+        "primary_enzyme": null,
+        "secondary_enzymes": [],
+        "active_metabolites": [],
+        "prodrug": false,
+        "notes": "Given IV for systemic infections. Oral use only for C. difficile (not systemically absorbed)"
+      },
+      "elimination": {
+        "primary_route": "renal",
+        "renal_fraction": 0.9,
+        "half_life_hours": 6,
+        "clearance_ml_min_kg": null
+      },
+      "onset_minutes": null,
+      "duration_hours": null,
+      "therapeutic_range": "AUC/MIC 400–600 mg·h/L (current ASHP/IDSA guidelines)",
+      "narrow_therapeutic_index": true,
+      "references": ["Rybak et al. AJHP 2020 ASHP/IDSA/SIDP Guidelines"]
+    },
+    {
+      "generic_name": "phenytoin",
+      "bioavailability_oral_pct": 90,
+      "time_to_peak_hours": 4.0,
+      "volume_of_distribution_l_kg": 0.6,
+      "protein_binding_pct": 90,
+      "half_life_hours": 22,
+      "half_life_range": "7–42 h (dose-dependent, Michaelis-Menten kinetics)",
+      "metabolism": {
+        "primary_enzyme": "CYP2C9",
+        "secondary_enzymes": ["CYP2C19"],
+        "active_metabolites": [],
+        "prodrug": false,
+        "notes": "Saturable (zero-order) kinetics at therapeutic levels — small dose increases → large level increases. CYP2C9/2C19 polymorphisms highly relevant"
+      },
+      "elimination": {
+        "primary_route": "hepatic",
+        "renal_fraction": 0.05,
+        "half_life_hours": 22,
+        "clearance_ml_min_kg": null
+      },
+      "onset_minutes": null,
+      "duration_hours": null,
+      "therapeutic_range": "10–20 µg/mL (total); 1–2 µg/mL (free)",
+      "narrow_therapeutic_index": true,
+      "references": ["FDA label NDA 008762"]
+    },
+    {
+      "generic_name": "clopidogrel",
+      "bioavailability_oral_pct": 50,
+      "time_to_peak_hours": 1.0,
+      "volume_of_distribution_l_kg": null,
+      "protein_binding_pct": 98,
+      "half_life_hours": 8,
+      "half_life_range": "6–8 h (active metabolite)",
+      "metabolism": {
+        "primary_enzyme": "CYP2C19",
+        "secondary_enzymes": ["CYP3A4", "CYP2B6"],
+        "active_metabolites": ["thiol metabolite (active, irreversible P2Y12 binder)"],
+        "prodrug": true,
+        "notes": "CYP2C19 loss-of-function alleles (*2, *3) → reduced active metabolite → reduced antiplatelet effect. FDA black box warning"
+      },
+      "elimination": {
+        "primary_route": "renal/fecal",
+        "renal_fraction": 0.5,
+        "half_life_hours": 8,
+        "clearance_ml_min_kg": null
+      },
+      "onset_minutes": null,
+      "duration_hours": null,
+      "therapeutic_range": null,
+      "narrow_therapeutic_index": false,
+      "references": ["FDA label NDA 020839"]
+    },
+    {
+      "generic_name": "diphenhydramine",
+      "bioavailability_oral_pct": 50,
+      "time_to_peak_hours": 2.0,
+      "volume_of_distribution_l_kg": 3.3,
+      "protein_binding_pct": 78,
+      "half_life_hours": 8,
+      "half_life_range": "4–15 h (extended in elderly: up to 17 h)",
+      "metabolism": {
+        "primary_enzyme": "CYP2D6",
+        "secondary_enzymes": ["MAO"],
+        "active_metabolites": [],
+        "prodrug": false,
+        "notes": "Extensive first-pass hepatic metabolism via N-demethylation and N-oxidation. Anticholinergic effects potentiated in CYP2D6 poor metabolisers and elderly (reduced clearance)"
+      },
+      "elimination": {
+        "primary_route": "renal",
+        "renal_fraction": 0.9,
+        "half_life_hours": 8,
+        "clearance_ml_min_kg": null
+      },
+      "onset_minutes": 30,
+      "duration_hours": 4,
+      "therapeutic_range": null,
+      "narrow_therapeutic_index": false,
+      "references": [
+        "FDA label NDA 006431",
+        "Simons FE et al. J Allergy Clin Immunol 1990",
+        "Blyden GT et al. J Clin Pharmacol 1986"
+      ]
+    }
+  ]
+}

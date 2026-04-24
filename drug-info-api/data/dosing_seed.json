@@ -1,0 +1,130 @@
+{
+  "drugs": [
+    {
+      "generic_name": "amoxicillin",
+      "adult_standard_dose": "500 mg every 8 h or 875 mg every 12 h (oral)",
+      "adult_max_dose": "3000 mg/day (standard); up to 4000 mg/day for severe infections",
+      "weight_based": {
+        "min_mg_per_kg": 20,
+        "typical_mg_per_kg": 25,
+        "max_mg_per_kg": 45,
+        "frequency": "divided every 8 h",
+        "notes": "Weight-based dosing primarily used in paediatrics; adult cap at 500 mg/dose unless high-dose regimen"
+      },
+      "renal_adjustment": {
+        "mild_impairment": "No adjustment (CrCl 30–89 mL/min)",
+        "moderate_impairment": "500 mg every 12 h (CrCl 10–30 mL/min)",
+        "severe_impairment": "500 mg every 24 h (CrCl <10 mL/min)",
+        "esrd_dialysis": "500 mg every 24 h; supplement after haemodialysis"
+      },
+      "hepatic_adjustment": {
+        "mild": "No adjustment",
+        "moderate": "No adjustment",
+        "severe": "Use with caution; no specific guidance"
+      },
+      "pediatric_notes": "25–45 mg/kg/day divided every 8 h (infants >3 months)"
+    },
+    {
+      "generic_name": "vancomycin",
+      "adult_standard_dose": "15–20 mg/kg IV every 8–12 h (target AUC/MIC 400–600)",
+      "adult_max_dose": "60 mg/kg/day (loading dose up to 35 mg/kg in critically ill)",
+      "weight_based": {
+        "min_mg_per_kg": 15,
+        "typical_mg_per_kg": 17.5,
+        "max_mg_per_kg": 20,
+        "frequency": "every 8–12 h IV",
+        "notes": "Use actual body weight (ABW) in most patients; consult pharmacy for obese patients (>BMI 40). Dose by AUC/MIC monitoring per 2020 ASHP/IDSA guidelines"
+      },
+      "renal_adjustment": {
+        "mild_impairment": "Extend interval to every 12 h; monitor levels",
+        "moderate_impairment": "Extend interval to every 24–48 h; target trough <10 mg/L",
+        "severe_impairment": "Dose by level monitoring only; may need once-weekly dosing",
+        "esrd_dialysis": "Load 25 mg/kg; re-dose based on post-dialysis levels"
+      },
+      "hepatic_adjustment": {
+        "mild": "No adjustment",
+        "moderate": "No adjustment",
+        "severe": "No adjustment"
+      },
+      "pediatric_notes": "40–60 mg/kg/day divided every 6 h IV; neonates require specialised protocols"
+    },
+    {
+      "generic_name": "metformin",
+      "adult_standard_dose": "500 mg twice daily or 850 mg once daily with meals; titrate over 2–4 weeks",
+      "adult_max_dose": "2550 mg/day (immediate release); 2000 mg/day (extended release)",
+      "weight_based": null,
+      "renal_adjustment": {
+        "mild_impairment": "No adjustment (eGFR 45–59 mL/min/1.73 m²); monitor",
+        "moderate_impairment": "Contraindicated if eGFR <45 at initiation; discontinue if eGFR falls <30",
+        "severe_impairment": "Contraindicated (eGFR <30)",
+        "esrd_dialysis": "Contraindicated"
+      },
+      "hepatic_adjustment": {
+        "mild": "Use with caution — hepatic disease associated with lactic acidosis risk",
+        "moderate": "Avoid",
+        "severe": "Contraindicated"
+      },
+      "pediatric_notes": "≥10 years: 500 mg twice daily; max 2000 mg/day"
+    },
+    {
+      "generic_name": "lisinopril",
+      "adult_standard_dose": "10 mg once daily (hypertension); 5 mg once daily (heart failure, start low)",
+      "adult_max_dose": "40 mg/day (hypertension); 40 mg/day (HF)",
+      "weight_based": null,
+      "renal_adjustment": {
+        "mild_impairment": "No adjustment (CrCl >30 mL/min)",
+        "moderate_impairment": "Start at 5 mg/day (CrCl 10–30 mL/min)",
+        "severe_impairment": "Start at 2.5 mg/day (CrCl <10 mL/min)",
+        "esrd_dialysis": "Start at 2.5 mg/day; dialysable — supplement post-dialysis"
+      },
+      "hepatic_adjustment": {
+        "mild": "No adjustment",
+        "moderate": "No adjustment",
+        "severe": "No data; use with caution"
+      },
+      "pediatric_notes": "6–16 years: 0.07 mg/kg once daily (max 5 mg/day); titrate to 0.61 mg/kg/day"
+    },
+    {
+      "generic_name": "warfarin",
+      "adult_standard_dose": "Individualised by INR target (2.0–3.0 for most indications)",
+      "adult_max_dose": "No fixed maximum — dose to INR target",
+      "weight_based": null,
+      "renal_adjustment": {
+        "mild_impairment": "No direct dose change; monitor INR closely",
+        "moderate_impairment": "No direct dose change; monitor INR closely",
+        "severe_impairment": "No direct dose change; monitor INR closely — uremia alters protein binding",
+        "esrd_dialysis": "Monitor INR frequently"
+      },
+      "hepatic_adjustment": {
+        "mild": "Reduce dose; liver synthesises clotting factors — impaired clearance",
+        "moderate": "Reduce dose significantly; INR may be unreliable marker",
+        "severe": "Avoid if possible"
+      },
+      "pediatric_notes": "Initiate at 0.2 mg/kg/day; target INR 2.0–3.0; requires specialist management"
+    },
+    {
+      "generic_name": "diphenhydramine",
+      "adult_standard_dose": "25–50 mg every 4–6 h orally (antihistamine/allergy); 50 mg at bedtime (sleep aid)",
+      "adult_max_dose": "300 mg/day (antihistamine); 50 mg/dose as sleep aid — do not exceed",
+      "weight_based": {
+        "min_mg_per_kg": 1.0,
+        "typical_mg_per_kg": 1.25,
+        "max_mg_per_kg": 1.5,
+        "frequency": "every 4–6 h",
+        "notes": "Weight-based dosing used in paediatrics only (≥2 years). Adult standard fixed dose (25–50 mg) is preferred for adults — do not exceed 1.5 mg/kg per dose or 5 mg/kg/day in children. OTC Benadryl tablet (25 mg) = standard adult dose; two tablets (50 mg) = maximum single adult dose."
+      },
+      "renal_adjustment": {
+        "mild_impairment": "Use with caution; no specific dose reduction required",
+        "moderate_impairment": "Extend dosing interval to every 6–12 h; monitor for anticholinergic toxicity",
+        "severe_impairment": "Extend dosing interval to every 12–18 h; accumulation risk",
+        "esrd_dialysis": "Administer every 12–18 h; not significantly dialysed"
+      },
+      "hepatic_adjustment": {
+        "mild": "No adjustment required",
+        "moderate": "Reduce dose or extend interval; hepatic metabolism impaired",
+        "severe": "Avoid if possible; significant accumulation risk"
+      },
+      "pediatric_notes": "≥2 years: 1–1.5 mg/kg/dose every 4–6 h (max 1.5 mg/kg/dose, max 5 mg/kg/day). NOT for use in children <2 years — risk of paradoxical CNS excitation and respiratory depression. For the Benadryl 25 mg tablet: children <12 years should use liquid formulation with weight-based dosing."
+    }
+  ]
+}
